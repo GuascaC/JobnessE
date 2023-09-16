@@ -1,0 +1,175 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+  background-color: #1d1c21;
+  padding: 1.5%;
+  display: flex;
+  margin-bottom: 6vh;
+}
+a{
+  color: white;
+}
+h1{
+  margin: 0 !important; 
+  line-height: 0.8;
+}
+.icons i{
+  font-size: 17px;
+  margin-right: 1vw;
+  color: white;
+}
+header h1{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.card{
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 5px 5px 70px #80808063;
+  padding: 3% 2%;
+}
+.card:hover{
+  box-shadow: 5px 5px 70px #808080a5;
+}
+.card h3{
+  line-height: 0;
+}
+.row{
+  display: flex;
+}
+.formInicio div div{
+  width: 40vw;
+  margin-left: 5vw;
+}
+.formInicio2 div div{
+  width: 40vw;
+  margin-bottom: 3vh;
+}
+.formInicio div input, .formInicio div select,
+.formInicio2 div input, .formInicio2 div select{
+  width: 80%;
+  height: 6vh;
+  margin-bottom: 3vh;
+}
+.formInicio div div img, .formInicio2 div div img{
+    cursor: pointer;
+  height: 3vh;
+}
+.button1{
+  background-color: #1d1c21;
+  color: white;
+  border: none;
+  margin-top: 2vh;
+  padding: 1% 5%;
+}
+.button1:hover{
+  background-color: grey;
+  box-shadow: 5px 5px 70px #808080a5;
+}
+.Catalog{
+  width: 80vw;
+  margin: 0 auto;
+}
+.Catalog img{
+height: 20vh;
+width: 15vw;
+}
+.link{
+  color: darkblue;
+  margin-top: 50vh;
+}
+header div h1{
+  text-align: left;
+}
+.btn-primary{
+  background: #1d1c21;
+  border-color: #1d1c21;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  margin: 0 30%;
+}
+.circle-image {
+  width: 150px; /* Set the desired width for your circular images */
+  height: 150px; /* Set the desired height for your circular images */
+  border-radius: 50%; /* Make the images circular */
+  overflow: hidden; /* Hide any content that exceeds the circular boundary */
+}
+.light-blue-border {
+  border: 20px solid #88ecfe; /* Light blue border color */
+}
+/* Import the Roboto font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply Roboto font to various elements */
+p, a, h1, h2, h3, h4, h5, h6 {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dropdown-menu-container {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.btn-group.dropstart .dropdown-menu {
+  left: 100%;
+  right: auto;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.floating-menu {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  transform: translateY(-50%);
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+  border-radius: 5px;
+}
+
+.floating-menu a {
+  display: block;
+  margin: 10px 0;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.floating-menu a:hover {
+  color: #ff6600; /* Change color on hover */
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+.jobness{
+  font-family: cursive;
+  
+}
