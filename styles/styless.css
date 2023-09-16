@@ -10,6 +10,9 @@ header{
   display: flex;
   margin-bottom: 6vh;
 }
+footer{
+  background-color: #1d1c21;
+}
 a{
   color: white;
 }
@@ -80,7 +83,7 @@ height: 20vh;
 width: 15vw;
 }
 .link{
-  color: darkblue;
+  color: rgb(127, 219, 255);
   margin-top: 50vh;
 }
 header div h1{
