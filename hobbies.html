@@ -147,13 +147,20 @@ PSE:mipagoamigo.com</p>
   <br><br>
   <!--footer-->
   <footer>  
-
-    <div class="text-center p-2 text-light">
-    <p>Todos los derechos reservados © 2020-2023
-    </p>
-    <a class="link" href="./about.html">About us/Sobre nosotros</a>
-    </div>
-</footer>
+    <div class="d-flex justify-content-start align-items-center">
+          <img class="rounded mx-3" src="./img/logo.png">
+      </div>
+      <div class="text-center p-2 text-light">
+      <p id="copyright" style="color:white">Todos los derechos reservados © 2020 -</p><a class="link" href="https://guascac.github.io/Curriculum/">CGuasca</a>
+      <script>
+        const currentYear = new Date().getFullYear();
+  
+        const copyrightElement = document.getElementById("copyright");
+        copyrightElement.innerHTML += ` ${currentYear}`;
+      </script>
+      <a class="link" href="./about.php">About us/Sobre nosotros</a>
+      </div>
+  </footer>
     <script src="https://kit.fontawesome.com/0bf8ac12b9.js" crossorigin="anonymous"></script> <!--Link de conexión íconos-->
 </body>
 </html>
